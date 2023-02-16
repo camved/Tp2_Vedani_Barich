@@ -20,3 +20,10 @@ def Somme(Array):
             Sum+=i
         return Sum
     return Array
+
+def iterate(Array:list,firstIndex,secondIndex):
+    tmp=Array[firstIndex]
+    Array[firstIndex]=Array[secondIndex]
+    Array[secondIndex]=tmp
+    return Array
+    
